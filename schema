@@ -1,0 +1,9 @@
+enum Episode {
+  NEWHOPE
+  EMPIRE
+  JEDI
+}
+type Character {
+  name: String!
+  appearsIn: [Episode]!
+}
